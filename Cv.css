@@ -1,0 +1,43 @@
+body, html{
+    background-color: lavender;
+    height: 100%;
+    margin: 0;
+}
+div{
+    border-color: black;
+    border-style: double;
+}
+img{
+    border-radius: 100px;
+}
+.container{
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    height: 100%;
+}
+.container > div {
+    padding: 10px;
+}
+
+.leftcol{
+    float: left;
+    width: 30%;
+}
+
+.rightcol{
+    float: right;
+    width: 70%;
+}
+.Title{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+}
+.contact{
+    height: 25%;
+}
+.idpicture{
+    padding: 25px;
+    text-align: center;
+}
