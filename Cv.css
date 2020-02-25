@@ -1,14 +1,25 @@
 body, html{
     background-color: lavender;
     height: 100%;
-    margin: 0;
+    margin-top: 0;
 }
 div{
-    border-color: black;
-    border-style: double;
+
+    height: auto;
 }
 img{
     border-radius: 100px;
+    background-color: #039BE5;
+}
+section{
+    min-width: 50%;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+article{
+    padding: 3em;
 }
 .container{
     display: -ms-flex;
@@ -20,24 +31,41 @@ img{
     padding: 10px;
 }
 
-.leftcol{
-    float: left;
-    width: 30%;
+#leftcol{
+    max-width: 20%;
+    background-color: #039BE5;
 }
 
 .rightcol{
     float: right;
-    width: 70%;
+    width: 80%;
+    background-color: gainsboro;
+    padding-left: 35px;
 }
 .Title{
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: black;
+    margin: 0;
+
 }
-.contact{
-    height: 25%;
+#contact{
+    display: flex;
+    flex-direction: column;
 }
 .idpicture{
     padding: 25px;
     text-align: center;
+}
+.pleft{
+
+}
+.header{
+    display: flex;
+}
+.Name{
+
+}
+.title{
+    border-bottom: #039BE5;
 }
