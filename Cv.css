@@ -1,8 +1,6 @@
 body{
-    background-color: lavender;
     height: 100%;
     margin-top: 0;
-
 }
 div{
 
@@ -22,6 +20,7 @@ main{
 }
 article{
     padding: 1em;
+    margin-left: 3%;
 }
 p{
     text-align: center;
@@ -30,7 +29,8 @@ p{
     overflow-wrap: break-word;
 }
 h2{
-    font-family: 'Roboto medium', sans-serif;
+    font-family: sans-serif;
+    margin-bottom: 0;
 }
 .container{
     display: -ms-flex;
@@ -50,8 +50,7 @@ h2{
 .rightcol{
     float: right;
     width: 80%;
-    background-color: #FAFAFA;
-    padding-left: 35px;
+    background-color: rgba(20, 20, 20, 0.05);
 }
 .Title{
     padding-top: 5px;
@@ -84,12 +83,14 @@ h2{
     color: #FFB74D;
     display: inline-block;
     margin-right: 10px;
+    margin-bottom: 0;
 }
 .surname{
     font-family: 'Roboto Mono', monospace;
     font-size: 3em;
     font-weight: 300;
     display: inline-block;
+    margin-bottom: 0;
 
 }
 .title{
@@ -102,7 +103,6 @@ h2{
     align-items: center;
 }
 #footer{
-    height: 100px;
     bottom: 0;
 }
 .date{
@@ -126,34 +126,15 @@ h2{
 
 }
 .Prof{
-
+    margin-top: 0;
 }
 .Exppro{
     display: flex;
     flex-direction: row;
 }
-.
-@media screen and (max-width: 800px){
-    main{
-        display: flex;
-        flex-direction: column;
-    }
-    .leftcol{
-        flex-direction: column;
-        justify-content: space-around;
-        padding-bottom: 5%;
-    }
-    body{
-        display: flex;
-        flex-direction: column;
 
-    }
-    .Name{
-        font-size: xx-small;
-    }
-}
 .underline {
-    border-bottom: 2px solid #C0CA33
+    border-bottom: 2px solid #FFB74D;
 }
 .left{
     text-align: left;
@@ -174,4 +155,94 @@ h2{
     border-style: solid;
     border-radius: 50%;
     padding: 10px;
+}
+
+.weight{
+    font-weight: 300;
+    margin-top: 0;
+}
+.année{
+
+}
+@media screen and (max-width: 800px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer{
+        display: none;
+    }
+    #footer2{
+        background-color: #FFB74D;
+        padding-bottom: 10px;
+    }
+    .leftcol{
+
+        display: contents;
+    }
+    .rightcol{
+        background-color: #FAFAFA;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+
+    }
+    article{
+        margin: 0;
+    }
+    .Prof{
+       margin: 0;
+    }
+    .Name{
+
+    }
+    .surname{
+        margin: 0;
+    }
+    .image{
+        background-color: #FFB74D;
+    }
+    #contact{
+        background-color: #FFB74D;
+    }
+    .Apropos{
+        background-color: #FFB74D;
+    }
+    .apropos{
+        margin: 5%;
+    }
+    #footer{
+
+    }
+    .date{
+        padding: 15px;
+        min-width: 25%;
+    }
+    .formation{
+        display: flex;
+        flex-direction: column;
+    }
+    .Exppro {
+        display: flex;
+        flex-direction: column;
+    }
+    .identiter {
+        text-align: center;
+    }
+
+}
+@media screen and (min-width: 801px){
+    #footer2{
+        display: none;
+    }
+
 }
