@@ -6,7 +6,6 @@ body{
 }
 div{
 
-    height: auto;
 }
 img{
     border-radius: 100px;
@@ -27,7 +26,7 @@ article{
 p{
     text-align: center;
     padding: 5px;
-    font-family: Leelawadee;
+    font-family: 'Leelawadee';
     overflow-wrap: break-word;
 }
 h2{
@@ -43,15 +42,15 @@ h2{
     padding: 10px;
 }
 
-#leftcol{
+.leftcol{
     max-width: 20%;
     background-color: #FFB74D;
 }
 
-#rightcol{
+.rightcol{
     float: right;
     width: 80%;
-    background-color: gainsboro;
+    background-color: #FAFAFA;
     padding-left: 35px;
 }
 .Title{
@@ -60,7 +59,7 @@ h2{
     background-color: rgba(20, 20, 20, 0.63);
     margin: 0;
     text-align: center;
-    color: aliceblue;
+    color: #FFB74D;
     font-family:Montserrat;
 
 }
@@ -79,7 +78,8 @@ h2{
     display: flex;
 }
 .Name{
-    font-family: "Roboto Light";
+    font-family: "Calisto MT";
+    font-size: xx-large;
 }
 .title{
     border-bottom: #FFB74D;
@@ -96,13 +96,16 @@ h2{
 }
 .date{
     padding: 15px;
-
+    min-width: 12%;
 }
 .content{
-
+    flex-basis: 70%;
+}
+.atout{
+    display: flex;
+    justify-content: space-evenly;
 }
 .formation{
-    justify-content: space-between;
     display: flex;
     flex-direction: row;
 }
@@ -115,12 +118,13 @@ h2{
     display: flex;
     flex-direction: row;
 }
-
+.
 @media screen and (max-width: 800px){
     main{
+        display: flex;
         flex-direction: column;
     }
-    #leftcol{
+    .leftcol{
         flex-direction: column;
         justify-content: space-around;
         padding-bottom: 5%;
@@ -129,4 +133,10 @@ h2{
         padding-left: 0;
         padding-right: 0;
     }
+    .Name{
+        font-size: xx-small;
+    }
+}
+.underline {
+    border-bottom: 2px solid #C0CA33
 }
