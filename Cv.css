@@ -46,7 +46,7 @@ h2{
 
 #leftcol{
     max-width: 20%;
-    background-color: #039BE5;
+    background-color: #FFB74D;
 }
 
 #rightcol{
@@ -80,10 +80,10 @@ h2{
     display: flex;
 }
 .Name{
-
+    font-family: "Roboto Light";
 }
 .title{
-    border-bottom: #039BE5;
+    border-bottom: #FFB74D;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     font-family: Montserrat cursive;
