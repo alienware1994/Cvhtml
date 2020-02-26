@@ -32,6 +32,9 @@ h2{
     font-family: sans-serif;
     margin-bottom: 0;
 }
+.identiter{
+    margin-left: 70px;
+}
 .container{
     display: -ms-flex;
     display: -webkit-flex;
@@ -105,6 +108,10 @@ h2{
 #footer{
     bottom: 0;
 }
+#footer2{
+    display: none;
+}
+
 .date{
     padding: 15px;
     min-width: 12%;
@@ -164,79 +171,117 @@ h2{
 .année{
 
 }
-@media screen and (max-width: 800px){
-    body{
+@media screen and (max-width: 800px) {
+    body {
         display: flex;
         flex-direction: column;
+        margin: 0;
     }
-    main{
+
+    main {
         display: flex;
         flex-direction: column;
     }
 
-    #footer{
+    #footer {
         display: none;
     }
-    #footer2{
+
+    #footer2 {
         background-color: #FFB74D;
         padding-bottom: 10px;
+        display: block;
     }
-    .leftcol{
+
+    .leftcol {
 
         display: contents;
     }
-    .rightcol{
+    .left{
+        text-align: center;
+    }
+
+    .atout {
+        display: block;
+    }
+
+    .identiter {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .rightcol {
         background-color: #FAFAFA;
         display: flex;
         flex-direction: column;
         width: auto;
     }
-    body{
+
+    body {
         display: flex;
         flex-direction: column;
 
     }
-    article{
+
+    article {
         margin: 0;
     }
-    .Prof{
-       margin: 0;
+
+    .Prof {
+        margin: 0;
     }
-    .Name{
+
+    .Name {
 
     }
-    .surname{
+    .title{
+        font-size: smaller;
+    }
+
+    .surname {
         margin: 0;
     }
-    .image{
+
+    .image {
         background-color: #FFB74D;
     }
-    #contact{
+
+    #contact {
         background-color: #FFB74D;
     }
-    .Apropos{
+
+    .Apropos {
         background-color: #FFB74D;
     }
-    .apropos{
+
+    .apropos {
         margin: 5%;
     }
-    #footer{
+
+    #footer {
 
     }
-    .date{
+
+    .date {
         padding: 15px;
         min-width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .formation{
+
+    .formation {
         display: flex;
         flex-direction: column;
     }
+
     .Exppro {
         display: flex;
         flex-direction: column;
     }
+}
     .identiter {
-        text-align: center;
+
     }
 
 }
