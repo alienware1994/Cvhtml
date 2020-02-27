@@ -110,7 +110,7 @@ h2{
     border-bottom: #FFB74D;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    font-family: 'Montserrat' cursive;
+    font-family: Montserrat ;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -180,8 +180,8 @@ h2{
     font-weight: 300;
     margin-top: 0;
 }
-.année{
-    font-family: sans-serif;
+.annee{
+    font-family: Montserrat ;
     font-weight: 600;
 }
 .ville{
@@ -226,13 +226,13 @@ h2{
         text-align: center;
         margin-left: 0;
     }
-    .année{
-        font-family: sans-serif;
+    .annee{
+        font-family: roboto sans-serif;
         font-weight: 200;
         font-size: x-large;
     }
     .ville{
-        font-family: sans-serif;
+        font-family: Montserrat sans-serif;
         font-weight: 200;
         font-size: x-large;
     }
@@ -312,11 +312,18 @@ h2{
     .formation {
         display: flex;
         flex-direction: column;
+        border-top-style: dotted;
+        border-top-width: thin;
+        border-top-color: #FFB74D;
     }
+
 
     .Exppro {
         display: flex;
         flex-direction: column;
+        border-top-style: dotted;
+        border-top-width: thin;
+        border-top-color: #FFB74D;
     }
 }
     .identiter {
