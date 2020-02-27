@@ -1,6 +1,8 @@
 body{
     height: 100%;
     margin-top: 0;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 div{
 
@@ -31,9 +33,13 @@ p{
 h2{
     font-family: sans-serif;
     margin-bottom: 0;
+    margin-top: 2%;
 }
 .identiter{
     margin-left: 70px;
+}
+.dot{
+    padding: 1em;
 }
 .container{
     display: -ms-flex;
@@ -248,8 +254,13 @@ h2{
 
     #contact {
         background-color: #FFB74D;
+        font-weight: 800;
+        font-family: cursive;
     }
-
+    .contenu{
+        text-align: justify;
+        width: 100%;
+    }
     .Apropos {
         background-color: #FFB74D;
     }
@@ -281,7 +292,7 @@ h2{
     }
 }
     .identiter {
-
+        margin: 5%;
     }
 
 }
