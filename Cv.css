@@ -12,6 +12,8 @@ img{
     background-color: #039BE5;
     width: 80%;
     margin: 9%;
+    border-style: solid;
+    border-color: orange;
 }
 section{
     min-width: 50%;
