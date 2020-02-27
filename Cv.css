@@ -131,7 +131,7 @@ h2{
 }
 .atout{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 .formation{
     display: flex;
@@ -156,6 +156,12 @@ h2{
 .left{
     text-align: center;
     font-family: 'Leelawadee';
+}
+.leftp{
+    text-align: left;
+}
+.rightblock{
+    margin-left: 100px;
 }
 .identiter{
 
@@ -217,7 +223,9 @@ h2{
     .left{
         text-align: center;
     }
-
+    .rightblock{
+        margin-left: 0;
+    }
     .atout {
         display: block;
     }
@@ -316,8 +324,13 @@ h2{
         border-top-width: thin;
         border-top-color: #FFB74D;
     }
-
-
+    .cercle {
+        border: rgba(0, 0, 0, 0.7);
+        border-style: solid;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: larger;
+    }
     .Exppro {
         display: flex;
         flex-direction: column;
@@ -334,4 +347,13 @@ h2{
         display: none;
     }
 
+}
+@media screen and (min-width: 801px) and (max-width: 1200px ){
+    .cercle {
+        border: rgba(0, 0, 0, 0.7);
+        border-style: solid;
+        border-radius: 50%;
+        padding: 4px;
+        font-size: 33%;
+    }
 }
