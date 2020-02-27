@@ -157,8 +157,9 @@ h2{
     border-bottom: 2px solid #FFB74D;
 }
 .left{
-    text-align: center;
+    text-align: left;
     font-family: 'Leelawadee';
+    margin-left: 10%;
 }
 .leftp{
     text-align: left;
@@ -207,6 +208,9 @@ h2{
     main {
         display: flex;
         flex-direction: column;
+    }
+    h2{
+        font-size: 139%;
     }
 
     #footer {
@@ -263,6 +267,7 @@ h2{
 
     article {
         margin: 0;
+        padding: 0;
     }
 
     .Prof {
@@ -273,7 +278,7 @@ h2{
 
     }
     .title{
-        font-size: smaller;
+
     }
 
     .surname {
@@ -291,7 +296,7 @@ h2{
     }
     .contenu{
         text-align: justify;
-        width: 100%;
+        width: auto;
     }
     .Apropos {
         background-color: #FFB74D;
